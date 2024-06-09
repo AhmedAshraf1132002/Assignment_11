@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <span id="userName" class="d-none"></span>
+        <div class="container my-5 text-center">
+            <div class="groupe w-75 p-5 m-auto">
+                <h1>Smart Login System
+                </h1>
+                <input id="signinEmail" type="text" class="form-control my-3" type="text" placeholder="Enter your email" />
+                <input id="signinPassword" type="text" class="form-control my-3" type="password"
+                    placeholder="Enter your password" />
+                <p id="inCorrect">
+                    <span class="text-danger m-3 d-none">All inputs is required</span>
+                </p>
+                <button class="btn btn-outline-info my-3 w-100" id="signinButton">Login</button>
+                <p class="text-white">
+                    Don’t have an account?
+                    <a class="text-white signUp" href="#">Sign Up</a>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="container my-5 text-center d-none " id="demo">
+            <div class=" second-Groupe  w-75 p-5 m-auto">
+                <h1>Smart Login System
+                </h1>
+                <input id="signupName" type="text" class="form-control my-3" type="text" placeholder="Enter your Name" />
+                <input id="signupEmail" type="text" class="form-control my-3" type="text" placeholder="Enter your email" />
+                <input id="signupPassword" type="text" class="form-control my-3" type="password"
+                    placeholder="Enter your password" />
+                <p id="inCorrect"></p>
+                <button class="btn btn-outline-info my-3 w-100" id="SignupButton">Sign Up</button>
+                <p class="text-white">
+                    Don’t have an account?
+                    <a class="text-white" href="#" id="signIn">Sign In</a>
+                </p>
+
+
+
+            </div>
+
+
+
+        </div>
+        
+
+    </main>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
