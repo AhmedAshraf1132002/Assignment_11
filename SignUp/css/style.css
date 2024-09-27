@@ -1,0 +1,17 @@
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.groupe{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-outline-info:hover{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+}
