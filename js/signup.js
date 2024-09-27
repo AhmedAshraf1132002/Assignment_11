@@ -24,7 +24,7 @@ function add() {
       password: SignUpPassword.value,
     };
     User.push(obj);
-    location.href = "../../Login/index.html";
+    location.href = "./index.html";
     localStorage.setItem("user", JSON.stringify(User));
   }
 }

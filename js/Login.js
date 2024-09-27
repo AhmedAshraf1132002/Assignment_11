@@ -11,7 +11,7 @@ let SignUpBtn = document.getElementById("SignUpBtn");
 
 LoginBtn.addEventListener("click", function () {
   if (SignLoginEmail.value == "" || SignLoginPassword.value == "") {
-    message.innerHTML = `<p class ="text-center">All inputs is required</p>`;
+    message.innerHTML = `<p class ="text-center">inputs is required</p>`;
   } else {
     checkUser();
   }
@@ -25,8 +25,11 @@ function checkUser() {
     ) {
       let nameOfUser = User[i].name;
       localStorage.setItem("userName", nameOfUser);
-      location.href = "../../home/index.html";
+      location.href = "./home.html";
       break;
+    }else{
+      message.innerHTML = `<p class ="text-center">incorrect email or password</p>`;
     }
   }
 }
+
